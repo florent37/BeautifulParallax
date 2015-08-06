@@ -1,6 +1,6 @@
 # BeautifulParallax
 
-[![gif](https://github.com/florent37/BeautifulParallax/tree/master/screens/giphy.gif)](https://youtu.be/EE0rTgFg2t4)
+[![gif](https://github.com/florent37/BeautifulParallax/blob/master/screens/giphy.gif)](https://youtu.be/EE0rTgFg2t4)
 
 ##RecyclerView
 
