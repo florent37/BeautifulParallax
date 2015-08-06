@@ -2,6 +2,10 @@
 
 Beautify your RecyclerViews with a great parallax effect !
 
+<a href="https://play.google.com/store/apps/details?id=com.github.florent37.beautifulparallax.sample">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+</a>
+
 [![gif](https://github.com/florent37/BeautifulParallax/blob/master/screens/giphy.gif)](https://youtu.be/EE0rTgFg2t4)
 
 ##RecyclerView
