@@ -1,6 +1,6 @@
 # BeautifulParallax
 
-[![gif](http://i.giphy.com/3oEdv8lkTlrIpMVgWs.gif)](https://youtu.be/5xJ4YvSaaFc)
+[![gif](http://i.giphy.com/l41m2plXil8qezdMA.gif)](https://youtu.be/EE0rTgFg2t4)
 
 ##RecyclerView
 
