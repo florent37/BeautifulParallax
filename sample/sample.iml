@@ -98,8 +98,8 @@
     <orderEntry type="library" exported="" name="circleimageview-1.3.0" level="project" />
     <orderEntry type="library" exported="" name="carpaccio-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="recyclerview-v7-22.2.1" level="project" />
-    <orderEntry type="library" exported="" name="support-annotations-22.2.1" level="project" />
     <orderEntry type="library" exported="" name="picasso-2.5.2" level="project" />
+    <orderEntry type="library" exported="" name="support-annotations-22.2.1" level="project" />
     <orderEntry type="library" exported="" name="materialimageloading-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="kenburnsview-1.0.6" level="project" />
     <orderEntry type="library" exported="" name="blurry-0.0.3" level="project" />

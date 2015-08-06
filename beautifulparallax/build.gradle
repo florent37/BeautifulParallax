@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.jfrog.bintray'
-//apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.github.dcendents.android-maven'
 
 version = '1.0.0'
 
@@ -25,9 +25,9 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:recyclerview-v7:'+project.SUPPORT_VERSION
+    compile 'com.nineoldandroids:library:2.4.0'
 }
 
-/*
 def siteUrl = 'https://github.com/florent37/BeautifulParallax'      // Homepage URL of the library
 def gitUrl = 'https://github.com/florent37/BeautifulParallax.git'   // Git repository URL
 group = "com.github.florent37"                      // Maven Group ID for the artifact
@@ -124,4 +124,3 @@ bintray {
         }
     }
 }
-*/

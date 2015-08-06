@@ -5,6 +5,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.nineoldandroids.view.ViewHelper;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,7 +19,7 @@ public class ParallaxViewController extends RecyclerView.OnScrollListener {
 
     protected List<ImageView> imageViewList = new ArrayList<>();
 
-    public void registerParallax(RecyclerView recyclerView) {
+    public void registerImageParallax(RecyclerView recyclerView) {
         recyclerView.addOnScrollListener(this);
     }
 
@@ -51,7 +53,7 @@ public class ParallaxViewController extends RecyclerView.OnScrollListener {
                 currentImageView.getGlobalVisibleRect(rect);
 
                 float yOffset = limit(-1, (recyclerviewCenterY - rect.top) / currentImageView.getHeight(), 1);
-                currentImageView.setTranslationY((-1f + yOffset) * PARALLAX_SPEED);
+                ViewHelper.setTranslationY(currentImageView,(-1f + yOffset) * PARALLAX_SPEED);
             }
         }
     }
