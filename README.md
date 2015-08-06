@@ -1,5 +1,7 @@
 # BeautifulParallax
 
+[http://i.giphy.com/3oEdv8lkTlrIpMVgWs.gif](https://youtu.be/5xJ4YvSaaFc)
+
 ##RecyclerView
 
 First, add a [Carpaccio tags](http://www.github.com/florent37/Carpaccio) to your View, then add a <strong>com.github.florent37.beautifulparallax.ParallaxViewController</strong>
