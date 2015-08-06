@@ -1,5 +1,7 @@
 # BeautifulParallax
 
+Beautify your RecyclerViews with a great parallax effect !
+
 [![gif](https://github.com/florent37/BeautifulParallax/blob/master/screens/giphy.gif)](https://youtu.be/EE0rTgFg2t4)
 
 ##RecyclerView
@@ -66,9 +68,28 @@ In your viewholder/cell, just add in your [carpaccio tags](http://www.github.com
 
 ```
 
+#Download
+
+Add into your **build.gradle**
+
+[![Download](https://api.bintray.com/packages/florent37/maven/BeautifulParallax/images/download.svg)](https://bintray.com/florent37/maven/BeautifulParallax/_latestVersion)
+
+```groovy
+compile ('com.github.florent37:beautifulparallax:1.0.0@aar'){
+    transitive=true
+}
+
+compile ('com.github.florent37:Carpaccio:(CARPACCIO LAST VERSION)@aar'){
+    transitive=true
+}
+```
+
 #Dependencies
 
-Carpaccio : [http://www.github.com/florent37/Carpaccio](http://www.github.com/florent37/Carpaccio)
+[Carpaccio](http://www.github.com/florent37/Carpaccio) : Data Mapping and Smart views for Android
+
+[NineOldAndroid](nineoldandroids.com) : Android library for using the Honeycomb (Android 3.0) animation API on all versions of the platform back to 1.0!
+
 
 #Community
 
