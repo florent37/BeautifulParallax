@@ -1,0 +1,97 @@
+<com.github.florent37.carpaccio.Carpaccio xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    android:clipChildren="true"
+    android:clipToPadding="true"
+    app:onlyForPreview="true"
+    app:register="
+        com.github.florent37.carpaccio.controllers.CommonViewController;
+        com.github.florent37.carpaccio.controllers.ImageViewController;
+        com.github.florent37.carpaccio.controllers.TextViewController;
+    ">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_placeholder"
+        android:clipChildren="true"
+        android:clipToPadding="true">
+
+        <!-- this image must be higher than the cell, to enable parallax ! -->
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:alpha=".6"
+            android:scaleType="centerCrop"
+            android:tag="
+                imageParallax();
+                enablePreview();
+                previewUrl(http://lorempixel.com/400/500/);
+                url($object.backgroundUrl);
+            " />
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dip"
+        android:background="@drawable/top_shadow"
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="170dip"
+        android:background="@drawable/gradient_black_85" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="22dip"
+        android:layout_gravity="bottom"
+        android:background="@android:color/white" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30dip"
+        android:layout_marginLeft="120dip"
+        android:layout_marginRight="10dip"
+        android:tag="
+                font(Roboto-Thin.ttf);
+                setText($object.name);
+            "
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/white"
+        android:padding="2dp"
+        android:elevation="4dp">
+
+        <ImageView
+            android:id="@+id/image_serie"
+            android:layout_width="95dip"
+            android:layout_height="140dip"
+
+            android:scaleType="centerCrop"
+            android:tag="
+                    enablePreview();
+                    previewUrl(http://lorempixel.com/300/400/);
+                    url($object.avatarUrl);
+                " />
+    </FrameLayout>
+
+
+</com.github.florent37.carpaccio.Carpaccio>
