@@ -1,5 +1,7 @@
 # BeautifulParallax
 
+[![Join the chat at https://gitter.im/florent37/BeautifulParallax](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/florent37/BeautifulParallax?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-BeautifulParallax-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/2257)
 
 Beautify your RecyclerViews with a great parallax effect !
