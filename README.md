@@ -12,6 +12,32 @@ Beautify your RecyclerViews with a great parallax effect !
 
 [![gif](https://github.com/florent37/BeautifulParallax/blob/master/screens/giphy.gif)](https://youtu.be/EE0rTgFg2t4)
 
+#Without Carpaccio
+
+```java
+public class YOURAdapter extends RecyclerView.Adapter<YOURViewHolder> {
+
+    ParallaxViewController parallaxViewController = new ParallaxViewController();
+    
+    @Override
+    public void onAttachedToRecyclerView(RecyclerView recyclerView) {
+        super.onAttachedToRecyclerView(recyclerView);
+        parallaxViewController.registerImageParallax(recyclerView);
+    }
+    
+    @Override
+    public YOURViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.your_view, parent, false);
+        YOURViewHolder yourViewHolder =  new YOURViewHolder(view);
+        parallaxViewController.imageParallax(yourViewHolder.yourImageView());
+        return yourViewHolder;
+    }
+    
+}
+```
+
+#Carpaccio
+
 ##RecyclerView
 
 First, add a [Carpaccio tags](http://www.github.com/florent37/Carpaccio) to your View, then add a <strong>com.github.florent37.beautifulparallax.ParallaxViewController</strong>
