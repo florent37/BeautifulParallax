@@ -12,7 +12,7 @@ Beautify your RecyclerViews with a great parallax effect !
 
 [![gif](https://github.com/florent37/BeautifulParallax/blob/master/screens/giphy.gif)](https://youtu.be/EE0rTgFg2t4)
 
-#Without Carpaccio
+# Without Carpaccio
 
 ```java
 public class YOURAdapter extends RecyclerView.Adapter<YOURViewHolder> {
@@ -36,9 +36,9 @@ public class YOURAdapter extends RecyclerView.Adapter<YOURViewHolder> {
 }
 ```
 
-#Carpaccio
+# Carpaccio
 
-##RecyclerView
+## RecyclerView
 
 First, add a [Carpaccio tags](http://www.github.com/florent37/Carpaccio) to your View, then add a <strong>com.github.florent37.beautifulparallax.ParallaxViewController</strong>
 
@@ -75,7 +75,7 @@ You can now use <strong>registerImageParallax()</strong> in your [carpaccio tags
 * TextViewController : enable mapping POJO with setText($object.title)
 * CommonViewController : enable mapping a POJO List with adapter(object,R.layout.cell)
 
-##Cell
+## Cell
 
 In your viewholder/cell, just add in your [carpaccio tags](http://www.github.com/florent37/Carpaccio) : <strong>imageParallax()</strong>
 
@@ -102,7 +102,7 @@ In your viewholder/cell, just add in your [carpaccio tags](http://www.github.com
 
 ```
 
-#Download
+# Download
 
 Add into your **build.gradle**
 
@@ -118,20 +118,20 @@ compile ('com.github.florent37:Carpaccio:(CARPACCIO LAST VERSION)@aar'){
 }
 ```
 
-#Dependencies
+# Dependencies
 
 [Carpaccio](http://www.github.com/florent37/Carpaccio) : Data Mapping and Smart views for Android
 
 [NineOldAndroid](nineoldandroids.com) : Android library for using the Honeycomb (Android 3.0) animation API on all versions of the platform back to 1.0!
 
 
-#Community
+# Community
 
 Looking for contributors, feel free to fork !
 
 Tell me if you're using my library in your application, I'll share it in this README
 
-#Credits
+# Credits
 
 Author: Florent Champigny
 www.florentchampigny.com/
