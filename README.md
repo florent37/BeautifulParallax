@@ -1,6 +1,8 @@
 # BeautifulParallax
 
-[![Join the chat at https://gitter.im/florent37/BeautifulParallax](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/florent37/BeautifulParallax?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+<a href="https://play.google.com/store/apps/details?id=com.github.florent37.florent.champigny">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+</a>
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-BeautifulParallax-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/2257)
 
@@ -136,6 +138,9 @@ Tell me if you're using my library in your application, I'll share it in this RE
 Author: Florent Champigny
 www.florentchampigny.com/
 
+<a href="https://play.google.com/store/apps/details?id=com.github.florent37.florent.champigny">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+</a>
 <a href="https://plus.google.com/+florentchampigny">
   <img alt="Follow me on Google+"
        src="https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/gplus.png" />
